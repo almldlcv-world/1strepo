@@ -1,6 +1,6 @@
 import streamlit as st
-import webbrowser
-webbrowser.open('http://streamlit.io')
+st.markdown('# 📝 **Transcriber App**')
+bar = st.progress(0)
 
 st.title('Counter Example')
 count = 0
